@@ -9,6 +9,10 @@ space : attack
 E : put collected items on vessel
 A : drom items collected""")
 
+try:
+    mkdir("saves")
+except:pass
+
 itemnames = ("valve", "nuclear_core", "piston", "chi", "fan", "gaz", "screw", "dvd")
 
 class item1(Fired):
