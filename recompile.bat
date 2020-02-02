@@ -1,0 +1,2 @@
+cd /d "C:\Users\Utilisateur\Documents\entitylib2-master"
+py -3.4 -m py2exe.build_exe "C:\Users\Utilisateur\Documents\entitylib2-master\main.py" "C:\Users\Utilisateur\Documents\entitylib2-master\entitylib2.py"
